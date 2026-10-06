@@ -18,7 +18,7 @@
  *    shallowCopy({}) => {}
  */
 function shallowCopy(obj) {
-  return JSON.parse(JSON.stringify(obj));
+  return { ...obj };
 }
 
 /**
